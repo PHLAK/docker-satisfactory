@@ -7,6 +7,7 @@ RUN ./steamcmd.sh +force_install_dir /home/steam/server +login anonymous +app_up
 
 VOLUME ${HOME}/.config/Epic/FactoryGame/Saved/SaveGames
 VOLUME ${HOME}/server/FactoryGame/Saved/Config/LinuxServer
+VOLUME ${HOME}/server/FactoryGame/Saved/Logs/
 
 EXPOSE 7777
 
