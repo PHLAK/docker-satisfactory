@@ -8,7 +8,7 @@ RUN ./steamcmd.sh +force_install_dir /home/steam/server +login anonymous +app_up
 VOLUME ${HOME}/.config/Epic/FactoryGame/Saved/SaveGames
 VOLUME ${HOME}/server/FactoryGame/Saved/Config/LinuxServer
 
-EXPOSE 7777 15000/udp 15777/udp
+EXPOSE 7777
 
 WORKDIR /home/steam/server
 
