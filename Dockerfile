@@ -9,4 +9,4 @@ VOLUME ${HOME}/.config/Epic/FactoryGame/Saved/SaveGames
 EXPOSE 7777/udp 15000/udp 15777/udp
 
 WORKDIR /home/steam/server
-CMD ["/home/steam/server/FactoryServer.sh"]
+CMD ["/home/steam/server/FactoryServer.sh", "-multihome=0.0.0.0"]
