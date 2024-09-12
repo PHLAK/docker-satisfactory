@@ -13,4 +13,4 @@ EXPOSE 7777
 
 WORKDIR /home/steam/server
 
-CMD ["/home/steam/server/FactoryServer.sh", "-ini:Engine:[HTTPServer.Listeners]:DefaultBindAddress=any"]
+CMD ["/home/steam/server/FactoryServer.sh"]
